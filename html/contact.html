@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" href="/stylesheets/styles.css"/>
+  <script src="/scripts/jquery.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css">
+<link rel="stylesheet" href="/stylesheets/font-mfizz.css"/>
+</head>
+<body>
+
+        <video playsinline autoplay loop poster="/videos/Snapshots/Love-iOS.jpg" class="bgvid">
+            <source src="/videos/mp4/Love-iOS.mp4" type="video/mp4" />
+        </video>
+
+
+<div id="mySidenav" class="sidenav">
+     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div id="name">
+    <h4 id="n">Danilo Marichal</h4>
+    <p id="fstck">Fullstack Web Developer</p>
+    <p id="p">ABOUT ME</p>
+    <p id="about">33-year-old  &nbsp;<span class="bold">NYC-NJ</span>&nbsp;  based <span class="bold">Full Stack Web Developer</span>. I build and <span class="bold">design</span> responsive <span class="bold">web applications</span>, enjoy creating smart user interface and <span class="bold">databases management</span>.</p>
+</div>
+
+<div id="social">
+<a href="https://github.com/danilomarichal"><img id="imge1" class="shake-slow" src="/images/github.png"></a>
+<a href="https://www.linkedin.com/in/danilo-marichal-36b714112/"><img id="imge2" class="shake-slow" src="/images/linkedin.png"></a>
+<a href="https://twitter.com/Dhann1"><img id="imge3" class="shake-slow" src="/images/twitter.png"></a>
+<a href="https://www.instagram.com/dhanmarshall/"><img id="imge4" class="shake-slow" src="/images/insta.png"></a>
+<a href="https://www.facebook.com/dany.marichal"><img id="imge5" class="shake-slow" src="/images/facebook.png"></a>
+</div>
+  </div>
+
+<button type="About" id="about_me" onclick="openNav()">About me</button>
+<a href="/"><img class="home" src="/images/home.png"></a>
+<a href="/mywork"><img class="work" src="/images/work.png"></a>
+<a href="/resume"><img class="resume" src="/images/cv.png"></a>
+<a href="/contact"><img class="contact" src="/images/mail.png"></a>
+
+
+<h1 class="page_title">CONTACT</h1>
+<div id="contact_form">
+<form action='/contact' name="contactar" method="POST">
+<br>
+<br>
+<label class="label1">Full Name</label><input class = "in1" type="text" placeholder="Full Name" name="name">
+<br>
+<br>
+<label class="label2">Email &nbsp; &nbsp; &nbsp; &nbsp;</label><input class = "in2" type="text" placeholder="Email address" name="email">
+<br>
+<br>
+<br>
+<label class="label3">Message</label><textarea row="8" cols="50" name="message" placeholder="Message"></textarea>
+<br>
+<button id="subm_form" type="submit">SEND</button>
+</form>
+</div>
+</body>
+<script src="/scripts/script.js"></script>
+</html>
+
