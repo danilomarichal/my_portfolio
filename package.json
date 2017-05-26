@@ -24,7 +24,8 @@
     "override": "0.0.1",
     "pg": "^6.2.3",
     "pg-promise": "^5.7.1",
-    "promise": "^7.1.1"
+    "promise": "^7.1.1",
+    "smtp": "^0.1.4"
   },
   "devDependencies": {},
   "author": "",
