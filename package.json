@@ -10,8 +10,6 @@
   "engines": {
     "node": "7.6.0"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "bcrypt": "^1.0.2",
     "body-parser": "^1.17.2",
@@ -29,5 +27,8 @@
     "pg": "^6.2.3",
     "pg-promise": "^5.7.1",
     "promise": "^7.1.1"
-  }
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
