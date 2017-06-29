@@ -30,7 +30,9 @@ function next() {
 
 window.addEventListener('resize', setTransform);
 
-
+$('.home').hover(function(){
+  $('#info1').text("home");
+})
 
 
 

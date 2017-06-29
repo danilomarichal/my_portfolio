@@ -1,19 +1,29 @@
 
+#show{
+  background-color: black;
+}
+
 #index{
 background-image:url('/images/btriangle.jpg');
 background-size: cover;
 background-repeat: no-repeat;
+background-attachment: fixed;
 }
-
+#resum{
+  background-color: black;
+}
+.contac{
+  background-color: black;
+}
 #about_me{
-  position:relative;
-  height: 40px;
-  width: 180px;
-  background:transparent;  color:white;
-  font-family: 'Roboto Condensed', sans-serif;
- font-size:22px;
-margin-left: 100px;
-margin-top: 80px;
+position:absolute;
+height: 40px;
+width: 180px;
+background:transparent;  color:white;
+font-family: 'Roboto Condensed', sans-serif;
+font-size:22px;
+margin-left: 10%;
+margin-top: 10%;
 border: 0.01px solid grey;
 }
 
@@ -38,12 +48,14 @@ position: relative;
   margin-left:160px;
 }
 #fullstack{
+  clear: both;
 position: relative;
 font-family: 'Noto Sans', sans-serif;
 color:#00B737;
 font-size: 100px;
-margin-left: 220px;
-margin-top: -160px;
+margin-left: 20%;
+margin-top: -10%;
+float: left;
 }
 #fullstack:hover{
   color:#00B737;
@@ -51,7 +63,7 @@ margin-top: -160px;
 #fullstack:before {
   content: "";
   position: absolute;
-  width: 50%;
+  width: 100%;
   height: 2px;
   bottom: 0;
   left: 0;
@@ -68,14 +80,20 @@ margin-top: -160px;
   transform: scaleX(1);
 }
 #developer{
+  clear: both;
   position: relative;
   font-family: 'Noto Sans', sans-serif;
   color:white;
   font-size: 50px;
-  margin-left: 800px;
-  margin-top: -180px;
+  margin-left:50%;
 }
-
+.my{
+  clear: both;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 .sidenav {
     height: 100%;
     width: 0;
@@ -241,29 +259,58 @@ margin-left: 50px;
   background-color: rgba(255,255,255,0.2);
 }
 .home{
+clear: both;
 position: relative;
 height: 75px;
 width: 75px;
-margin-left: 600px;
-margin-top: 80px;
+margin-left: 85%;
+margin-top: 8%;
+
+}
+.home:hover {
+  animation: shake 0.82s infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+
 }
 .work{
+  padding-top: 2%;
 position: relative;
 height: 75px;
 width: 75px;
-margin-left: 40px;
+margin-left: 85%;
+}
+.work:hover {
+  animation: shake 0.82s infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+
 }
 .contact{
+  padding-top: 2%;
 position: relative;
 height: 70px;
 width: 70px;
-margin-left: 40px;
+margin-left: 85%;
+}
+.contact:hover {
+  animation: shake 0.82s infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+
 }
 .resume{
+  padding-top: 2%;
   position: relative;
 height: 65px;
 width: 70px;
-margin-left: 40px;
+margin-left: 85%;
+}
+.resume:hover {
+  animation: shake 0.82s infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+
 }
 .tech{
   font-family: 'Noto Sans', sans-serif;
@@ -271,22 +318,24 @@ margin-left: 40px;
 .proj_title{
   letter-spacing: 1px;
 }
-#resume_imgage{
+#resum{
 background-image:url('/images/learn.jpg');
 background-size: cover;
 background-repeat: no-repeat;
+background-attachment: fixed;
 }
 .page_title{
+  clear: both;
   text-align: center;
-  margin-left: 35%;
+  margin-left:33%;
   margin-top: 50px;
-position: relative;
-color:white;
- font-family: 'Noto Sans', sans-serif;
- font-size: 40px;
- border: 1px solid white;
- width: 400px;
- height: 60px;
+  position: relative;
+  color:white;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 40px;
+  border: 1px solid white;
+  width: 400px;
+  height: 60px;
 }
 
 .wrap{
@@ -374,13 +423,12 @@ box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
   width: 20px;
 }
 #contact_form{
-  margin-top: 50px;
+margin-top: 50px;
 position:relative;
 text-align: center;
-background-color: rgba(0,0,0,0.4);
-width: 700px;
+
 height: 320px;
-margin-left: 25%;
+
 border-radius: 5px;
 }
 
@@ -421,9 +469,9 @@ textarea{
   border: none;
 }
 #message_sent{
-  padding-top: 120px;
-  margin-left: 22%;
-  margin-top: 50px;
+padding-top: 120px;
+margin-left: 33%;
+margin-top: 50px;
  position: relative;
  color:#00B737;
  font-family: 'Noto Sans', sans-serif;
@@ -453,16 +501,47 @@ textarea{
 .underline{
   text-decoration: underline;
 }
-@keyframes wiggle {
-    0% { transform: rotate(0deg); }
-   80% { transform: rotate(0deg); }
-   85% { transform: rotate(10deg); }
-   95% { transform: rotate(-10deg); }
-  100% { transform: rotate(0deg); }
-}
 
+.underline{
+  text-decoration: underline;
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(3px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-3px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(6px, 0, 0);
+  }
+}
 .shake-slow:hover {
-  animation: wiggle 0.4s infinite;
+  animation: shake 0.82s infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+
 }
 
+footer,
+.push{
+  height: 50px;
+}
+.horse{
+  clear: both;
+  position: relative;
+}
+.reg{
+  clear: both;
+  color:white;
+  font-size: 12px;
+  font-family: 'Antic', sans-serif;
+  position: relative;
+}
 
