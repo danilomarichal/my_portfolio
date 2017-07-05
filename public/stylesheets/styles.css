@@ -211,12 +211,13 @@ margin-top: 5px;
 #travel{
 position: relative;
 color:white;
-height: 400px;
+height: 500px;
 width: 400px;
 text-align: center;
 float: left;
 margin-top: 80px;
 margin-left: 50px;
+padding-bottom: 2%;
 }
 #travel img{
   height: 100px;
@@ -228,12 +229,13 @@ margin-left: 50px;
 #charity{
 position: relative;
 color:white;
-height: 400px;
+height: 500px;
 width: 400px;
 text-align: center;
 float: left;
 margin-top: 80px;
 margin-left: 50px;
+padding-bottom: 2%;
 }
 #charity img{
   height: 75px;
@@ -246,12 +248,13 @@ margin-left: 50px;
 #finance{
 position: relative;
 color:white;
-height: 400px;
+height: 500px;
 width: 400px;
 text-align: center;
 float: left;
 margin-top: 80px;
 margin-left: 50px;
+padding-bottom: 2%;
 }
 #finance img{
   height: 100px;
@@ -330,7 +333,7 @@ background-attachment: fixed;
   clear: both;
   text-align: center;
   margin-left:33%;
-  margin-top: 50px;
+  margin-top: -10%;
   position: relative;
   color:white;
   font-family: 'Noto Sans', sans-serif;
