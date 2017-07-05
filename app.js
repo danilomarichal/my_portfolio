@@ -27,9 +27,6 @@ app.get("/mywork", function(req, res){
   res.render("show");
 });
 
-app.get("/resume",function(req,res){
-  res.render("resume");
-});
 
 app.get("/contact",function(req,res){
   res.render("contact");
