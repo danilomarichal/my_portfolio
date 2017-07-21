@@ -102,10 +102,18 @@ margin-left: 2%;
    .page_title{
     margin-top: 10%;
     margin-left: 2%;
-    width: 90%;
+    width: 80%;
+   }
+   #fullstack:before{
+    width: 80%;
+    margin-left: 10%;
    }
    #fullstack{
     margin-top: 10%;
+    text-align: center;
+    margin-left: 5%;
+    font-size: 70px;
+    width: 100%;
 
   }
   #developer{
@@ -139,10 +147,13 @@ margin-left: 2%;
    .page_title{
     margin-top: 10%;
     margin-left: 4%;
-    width: 90%;
+    width: 80%;
    }
    #fullstack{
-    margin-top: 10%;
+    text-align: center;
+    margin-left: 5%;
+    font-size: 55px;
+    width: 100%;
 
   }
    #fullstack:before {
@@ -188,12 +199,12 @@ margin-left: 2%;
 
    }
    .page_title{
-    margin-top: 10%;
+    margin-top: 15%;
     margin-left: 4%;
     width: 90%;
    }
   .home{
-  margin-top: 30%;
+  margin-top: 40%;
   margin-left: 8%;
   height: 15%;
   width:15%;
@@ -217,8 +228,9 @@ height: 15%;
     background-size: cover;
   }
   #fullstack{
-    margin-top: 15%;
-    margin-left: 10%;
+    margin-left: 2%;
+    font-size: 55px;
+    width: 100%;
   }
   #fullstack:before {
 width: 90%;
