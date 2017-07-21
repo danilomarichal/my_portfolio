@@ -218,7 +218,7 @@ height: 15%;
   }
   #fullstack{
     margin-top: 15%;
-    margin-left: 15%;
+    margin-left: 10%;
   }
   #fullstack:before {
 width: 90%;
@@ -228,13 +228,16 @@ width: 90%;
 }
 #developer{
 text-align: center;
-margin-left: 2%;
 }
 .sidenav{
   background-position: center;
 }
 #name{
   margin-left: 5%;
+}
+#my{
+  margin-left: 1%;
+  text-align: center;
 }
 .bold{
   text-shadow: 1px 1px black;
