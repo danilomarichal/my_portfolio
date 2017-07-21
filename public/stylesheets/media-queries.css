@@ -1,1 +1,256 @@
 
+@media only screen
+and (max-width: 880px){
+#fullstack{
+    margin-top: 7%;
+    margin-left: 12%;
+  }
+#developer{
+text-align: center;
+margin-left: 2%;
+}
+.page_title{
+  margin-left: 25%;
+   }
+}
+@media only screen
+ and (max-width: 800px){
+
+   #travel{
+    width: 60%;
+    margin-left:19%;
+    margin-right: 19%;
+    float: left;
+   }
+   #charity{
+    width: 60%;
+    margin-left:19%;
+    margin-right: 19%;
+   }
+   #finance{
+    width: 60%;
+    margin-left:19%;
+    margin-right: 19%;
+
+   }
+   .page_title{
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 90%;
+   }
+   #fullstack{
+    margin-top: 10%;
+    margin-left: 12%;
+  }
+  #developer{
+text-align: center;
+margin-left: 2%;
+}
+
+}
+@media only screen
+
+ and (max-width: 780px){
+.page_title{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+   }
+   #developer{
+text-align: center;
+margin-left: 2%;
+}
+}
+@media only screen
+
+ and (max-width: 810px){
+.page_title{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+   }
+   #fullstack{
+    margin-top: 10%;
+    margin-left: 12%;
+  }
+  #developer{
+text-align: center;
+margin-left: 2%;
+}
+}
+@media only screen
+
+ and (max-width: 700px){
+
+   #travel{
+    width: 70%;
+    margin-left:14%;
+    margin-right: 14%;
+    float: left;
+   }
+   #charity{
+    width: 70%;
+    margin-left:14%;
+    margin-right: 14%;
+   }
+   #finance{
+    width: 70%;
+    margin-left:14%;
+    margin-right: 14%;
+
+   }
+   .page_title{
+    margin-top: 10%;
+    margin-left: 2%;
+    width: 90%;
+   }
+   #fullstack{
+    margin-top: 10%;
+
+  }
+  #developer{
+text-align: center;
+margin-left: 2%;
+}
+
+}
+
+@media only screen
+
+ and (max-width: 600px){
+
+   #travel{
+    width: 80%;
+    margin-left:9%;
+    margin-right: 9%;
+    float: left;
+   }
+   #charity{
+    width: 80%;
+    margin-left:9%;
+    margin-right: 9%;
+   }
+   #finance{
+    width: 80%;
+    margin-left:9%;
+    margin-right: 9%;
+
+   }
+   .page_title{
+    margin-top: 10%;
+    margin-left: 4%;
+    width: 90%;
+   }
+   #fullstack{
+    margin-top: 10%;
+
+  }
+   #fullstack:before {
+width: 80%;
+}
+  #developer{
+text-align: center;
+margin-left: 2%;
+}
+.sidenav{
+  background-position: center;
+}
+#name{
+  margin-left: 5%;
+}
+.bold{
+  text-shadow: 1px 1px black;
+}
+#fstck{
+ text-shadow: 1px 1px black;
+}
+#subm{
+  margin-top: 7%;
+}
+}
+@media only screen
+ and (max-width: 480px){
+   #travel{
+    width: 100%;
+    margin-left:0;
+    margin-right: 0;
+
+   }
+   #charity{
+    width: 100%;
+    margin-left:0;
+    margin-right: 0;
+   }
+   #finance{
+    width: 100%;
+    margin-left:0;
+    margin-right: 0;
+
+   }
+   .page_title{
+    margin-top: 10%;
+    margin-left: 4%;
+    width: 90%;
+   }
+  .home{
+  margin-top: 30%;
+  margin-left: 8%;
+  height: 15%;
+  width:15%;
+   }
+   .work{
+margin-left: 8%;
+height: 15%;
+  width:15%;
+   }
+  .resume{
+margin-left: 8%;
+height: 15%;
+  width:15%;
+  }
+  .contact{
+margin-left: 8%;
+height: 15%;
+  width:15%;
+  }
+  .sidenav {
+    background-size: cover;
+  }
+  #fullstack{
+    margin-top: 15%;
+    margin-left: 15%;
+  }
+  #fullstack:before {
+width: 90%;
+}
+#index{
+  height: 100%;
+}
+#developer{
+text-align: center;
+margin-left: 2%;
+}
+.sidenav{
+  background-position: center;
+}
+#name{
+  margin-left: 5%;
+}
+.bold{
+  text-shadow: 1px 1px black;
+}
+#fstck{
+ text-shadow: 1px 1px black;
+}
+#subm{
+  margin-top: 7%;
+}
+#contact_sent{
+  height: 200px;
+}
+#message_sent{
+  margin-top: 20%;
+}
+}
+
+

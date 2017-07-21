@@ -2,7 +2,9 @@
 <html>
 <head>
   <title>Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/stylesheets/styles.css"/>
+  <link rel="stylesheet" href="/stylesheets/media-queries.css"/>
   <script src="/scripts/jquery.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
@@ -26,7 +28,6 @@
 <div id="social">
 <a href="https://github.com/danilomarichal"><img id="imge1" class="shake-slow" src="/images/github.png"></a>
 <a href="https://www.linkedin.com/in/danilo-marichal-36b714112/"><img id="imge2" class="shake-slow" src="/images/linkedin.png"></a>
-<a href="https://twitter.com/Dhann1"><img id="imge3" class="shake-slow" src="/images/twitter.png"></a>
 <a href="https://www.instagram.com/dhanmarshall/"><img id="imge4" class="shake-slow" src="/images/insta.png"></a>
 <a href="https://www.facebook.com/dany.marichal"><img id="imge5" class="shake-slow" src="/images/facebook.png"></a>
 </div>
@@ -44,14 +45,14 @@
 <form action='/contact' name="contactar" method="POST">
 <br>
 <br>
-<label class="label1">Full Name</label><input class = "in1" type="text" placeholder="Full Name" name="name">
+<label>Full Name</label><br><input type="text" placeholder="Full Name" name="name">
 <br>
 <br>
-<label class="label2">Email &nbsp; &nbsp; &nbsp; &nbsp;</label><input class = "in2" type="text" placeholder="Email address" name="email">
+<label>Email</label><br><input type="text" placeholder="Email address" name="email">
 <br>
 <br>
 <br>
-<label class="label3">Message</label><textarea row="8" cols="50" name="message" placeholder="Message"></textarea>
+<label>Message</label><br><textarea row="8" cols="50" name="message" placeholder="Message"></textarea>
 <br>
 <button id="subm">SEND</button>
 </form>
