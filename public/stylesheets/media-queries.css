@@ -251,6 +251,9 @@ text-align: center;
 #contact_sent{
   height: 200px;
 }
+#social{
+  margin-bottom: 10%;
+}
 #message_sent{
   margin-top: 20%;
 }
