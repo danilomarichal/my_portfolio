@@ -248,6 +248,17 @@ text-align: center;
   margin-top: -20%;
   margin-left: 4%;
 }
+.imge1{
+display: inline-block;
+}
+.imge2{
+display: inline-block;
+}
+.imge4{
+}
+.imge5{
+ display: inline-block;
+}
 .my{
   margin-left: 1%;
   text-align: center;
