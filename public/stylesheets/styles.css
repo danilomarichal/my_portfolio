@@ -5,6 +5,7 @@
 }
 
 #index{
+position: relative;
 background-image:url('/images/btriangle.jpg');
 background-size: cover;
 background-repeat: no-repeat;
