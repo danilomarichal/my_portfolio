@@ -20,7 +20,6 @@ margin-left: 2%;
     width: 60%;
     margin-left:19%;
     margin-right: 19%;
-    float: left;
    }
    #charity{
     width: 60%;
@@ -28,6 +27,12 @@ margin-left: 2%;
     margin-right: 19%;
    }
    #finance{
+    width: 60%;
+    margin-left:19%;
+    margin-right: 19%;
+
+   }
+   #game{
     width: 60%;
     margin-left:19%;
     margin-right: 19%;
@@ -86,7 +91,7 @@ margin-left: 2%;
     width: 70%;
     margin-left:14%;
     margin-right: 14%;
-    float: left;
+
    }
    #charity{
     width: 70%;
@@ -94,6 +99,12 @@ margin-left: 2%;
     margin-right: 14%;
    }
    #finance{
+    width: 70%;
+    margin-left:14%;
+    margin-right: 14%;
+
+   }
+   #game{
     width: 70%;
     margin-left:14%;
     margin-right: 14%;
@@ -131,7 +142,7 @@ margin-left: 2%;
     width: 80%;
     margin-left:9%;
     margin-right: 9%;
-    float: left;
+
    }
    #charity{
     width: 80%;
@@ -139,6 +150,12 @@ margin-left: 2%;
     margin-right: 9%;
    }
    #finance{
+    width: 80%;
+    margin-left:9%;
+    margin-right: 9%;
+
+   }
+   #game{
     width: 80%;
     margin-left:9%;
     margin-right: 9%;
@@ -193,6 +210,12 @@ margin-left: 2%;
     margin-right: 0;
    }
    #finance{
+    width: 100%;
+    margin-left:0;
+    margin-right: 0;
+
+   }
+   #game{
     width: 100%;
     margin-left:0;
     margin-right: 0;

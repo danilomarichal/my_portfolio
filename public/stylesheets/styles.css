@@ -200,65 +200,90 @@ margin-left:10px ;
     z-index: -100;
     transform:translate(-50%, -50%);
 }
-#all_projects{
+#all_prjcts{
   width: 100%;
   height: auto;
   text-align: center;
   vertical-align: middle;
+ margin: 4% 0 4% 0;
+
 }
-#travel{
-display: inline-block;
+#finance{
+position: relative;
+overflow: hidden;
 color:white;
 height: auto;
-width: 31%;
+width: 35%;
 text-align: center;
-margin-left: 1%;
-margin-right: 1%;
+display: inline-block;
 transition: 0.2s;
-margin-top: 10%;
+margin:4% 6% 5% 6%;
+padding: 1%;
 }
-
-#travel img{
+#finance img{
   height: 250px;
-  width: 100%;
+  width: 90%;
 }
-#travel:hover{
+#finance:hover{
   background-color: rgba(255,255,255,0.2);
 }
 #charity{
+position: relative;
+overflow: hidden;
 color:white;
 height: auto;
-width: 31%;
+width: 35%;
 text-align: center;
 display: inline-block;
-margin-left: 1%;
-margin-right: 1%;
 transition: 0.2s;
-margin-top: 8%;
+margin:4% 6% 5% 6%;
+padding: 1%;
+float: left;
 }
 #charity img{
   height: 250px;
-  width: 100%;
+  width: 90%;
 }
 #charity:hover{
   background-color: rgba(255,255,255,0.2);
 }
-#finance{
+#travel{
+position: relative;
+overflow: hidden;
 color:white;
 height: auto;
-width: 31%;
+width: 35%;
 text-align: center;
 display: inline-block;
 transition: 0.2s;
-margin-left: 1%;
-margin-right: 1%;
-margin-top: 10%;
+margin:4% 6% 5% 6%;
+padding: 1%;
 }
-#finance img{
+#travel img{
   height: 250px;
-  width: 100%;
+  width: 90%;
 }
-#finance:hover{
+#travel:hover{
+  background-color: rgba(255,255,255,0.2);
+}
+#game{
+position: relative;
+overflow: hidden;
+color:white;
+height: auto;
+width: 35%;
+text-align: center;
+display: inline-block;
+transition: 0.2s;
+margin:4% 6% 5% 6%;
+padding: 1%;
+float: left;
+}
+#game img{
+  height: 250px;
+  width: 90%;
+}
+#game:hover{
   background-color: rgba(255,255,255,0.2);
 }
 
