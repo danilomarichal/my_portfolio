@@ -27,7 +27,7 @@ font-family: 'Roboto Condensed', sans-serif;
 font-size:22px;
 margin-left: 10%;
 margin-top: 10%;
-border: 0.01px solid grey;
+border: 1px solid grey;
 }
 
 #about_me:hover {
