@@ -268,7 +268,9 @@ text-align: center;
   background-position: center;
 }
 #name{
-  margin-top: -20%;
+  height: 60%;
+  width: 80%;
+  margin-top: -30%;
   margin-left: 4%;
 }
 .imge1{
