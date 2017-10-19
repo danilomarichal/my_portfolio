@@ -143,7 +143,7 @@ float: left;
   margin-left: 120px;
   padding: 10px;
   border-top: 2px solid black;
-  transform: rotate(-0.5deg);
+  //transform: rotate(-0.5deg);
 }
 .soc_link{
   height: 50px;
