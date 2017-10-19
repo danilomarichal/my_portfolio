@@ -268,10 +268,14 @@ text-align: center;
   background-position: center;
 }
 #name{
-  height: 60%;
-  width: 80%;
-  margin-top: -30%;
+  height: 50%;
+  width: 70%;
+  margin-top: -50%;
   margin-left: 4%;
+}
+#social{
+ height: 5%;
+  width: 15%;
 }
 .imge1{
 display: inline-block;
