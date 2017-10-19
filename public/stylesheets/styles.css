@@ -137,6 +137,41 @@ float: left;
   //background-color: rgba(0,0,0,0.2);
   padding: 20px;
 }
+#social{
+  height: 50px;
+  width: 23%;
+  margin-left: 120px;
+  padding: 10px;
+  border-top: 2px solid black;
+  transform: rotate(-0.5deg);
+}
+.soc_link{
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+margin-left: 30px;
+}
+.soc_link:hover{
+  animation: shake 2s infinite;
+}
+#img1{
+background-image:url(../images/github.png);
+background-size: 100%;
+background-position: center;
+background-repeat: no-repeat;
+}
+#img2{
+ background-image:url(../images/linkedin.png) ;
+background-size: 100%;
+background-position: center;
+background-repeat: no-repeat;
+}
+#img3{
+ background-image: url(../images/insta.png);
+background-size: 100%;
+background-position: center;
+background-repeat: no-repeat;
+}
 #n{
   font-size: 28px;
 }
@@ -160,39 +195,7 @@ font-size: 16px;
   font-weight: bold;
   text-shadow: 0.2px 0.2px #00B737;
 }
-#social{
-  margin-top: 50px;
-  margin-left: 70px;
-}
-#imge1{
-height: 65px;
-width: 65px;
-display: inline-block;
-margin-left: 4%;
-padding-bottom:8px;
-}
 
-#imge2{
-height:60px;
-width:60px;
-display: inline-block;
-margin-left: 25px;
-padding-bottom:20px;
-}
-
-#imge4{
-height: 65px;
-width: 65px;
-display: inline-block;
-margin-left: 25px;
-padding-bottom:10px;
-}
-#imge5{
-height: 95px;
-width: 95px;
-display: inline-block;
-margin-left:10px ;
-}
 .bgvid {
     position: fixed;
     top: 50%;
