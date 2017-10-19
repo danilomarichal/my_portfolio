@@ -130,10 +130,12 @@ float: left;
     margin-left: 50px;
 }
 #name{
-  height: 400px;
+  height: 390px;
   width: 350px;
   margin-left: 100px;
   margin-top: -50px;
+  //background-color: rgba(0,0,0,0.2);
+  padding: 20px;
 }
 #n{
   font-size: 28px;
@@ -158,13 +160,16 @@ font-size: 16px;
   font-weight: bold;
   text-shadow: 0.2px 0.2px #00B737;
 }
-
+#social{
+  margin-top: 50px;
+  margin-left: 70px;
+}
 #imge1{
 height: 65px;
 width: 65px;
 display: inline-block;
 margin-left: 4%;
-padding-bottom:10px;
+padding-bottom:8px;
 }
 
 #imge2{
@@ -176,8 +181,8 @@ padding-bottom:20px;
 }
 
 #imge4{
-height: 70px;
-width: 70px;
+height: 65px;
+width: 65px;
 display: inline-block;
 margin-left: 25px;
 padding-bottom:10px;
