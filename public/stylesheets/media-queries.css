@@ -1,301 +1,282 @@
-
 @media only screen
-and (max-width: 880px){
+ and (max-width: 375px){
+
+.home{
+display: none;
+   }
+.work{
+display: none;
+
+   }
+.resume{
+display: none;
+
+  }
+.contact{
+display: none;
+
+  }
+.sidenav {
+    background-size: cover;
+}
+.inside_nav1{
+margin-top: 80%;
+ height: 60px;
+ width: 60px;
+ margin-left: 20%;
+ background-image: url(/images/home.png);
+ background-size:100%;
+ background-position:center;
+ background-repeat: no-repeat;
+}
+.inside_nav2{
+margin-top: 10%;
+ height: 60px;
+ width: 60px;
+ margin-left: 20%;
+ background-image: url(/images/work.png);
+ background-size:100%;
+ background-position:center;
+ background-repeat: no-repeat;
+}
+.inside_nav3{
+margin-top: 10%;
+ height: 60px;
+ width: 60px;
+ margin-left: 20%;
+background-image: url(/images/mail.png);
+ background-size:100%;
+ background-position:center;
+ background-repeat: no-repeat;
+}
+.inside_nav4{
+margin-top: 10%;
+ height: 60px;
+ width: 60px;
+ margin-left: 20%;
+ background-image: url(/images/cv.png);
+ background-size:100%;
+ background-position:center;
+ background-repeat: no-repeat;
+}
+#myBurguer{
+  display: block;
+}
+.burguer {
+  display: block;
+    height: 80%;
+    width: 0;
+    position: fixed;
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 5%;
+    transition: 0.5s;
+}
+.burguer a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 50px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+.burguer a:hover{
+    color: #f1f1f1;
+}
+.closeb {
+    position: absolute;
+    top: 10%;
+    left: -20%;
+    font-size: 33px;
+    margin-left: 50px;
+}
+#burga{
+    position: fixed;
+    top:12%;
+    right:17%;
+    height: 50px;
+    width: 50px;
+margin-bottom: 90%;
+    background-image: url(/images/burguer.png);
+    background-size: 96%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 #fullstack{
-    margin-top: 7%;
-    margin-left: 12%;
+    width: 50%;
+    text-align: left;
+    font-size: 44px;
+    margin: 35% 0 0 12%;
   }
+#about_me{
+position: fixed;
+top: 9%;
+left: 4%;
+width: 140px;
+//margin-top: 6%;
+}
 #developer{
+position: relative;
+width: 90%;
+margin: 80% 0 0 4.5%;
+font-size: 33px;
 text-align: center;
-margin-left: 2%;
 }
-.page_title{
-  margin-left: 25%;
-   }
+.my{
+  width: 90%;
+  margin: 5% 0 10% 5%;
+  font-size: 22px;
 }
-@media only screen
- and (max-width: 800px){
-
-   #travel{
-    width: 60%;
-    margin-left:19%;
-    margin-right: 19%;
-   }
-   #charity{
-    width: 60%;
-    margin-left:19%;
-    margin-right: 19%;
-   }
-   #finance{
-    width: 60%;
-    margin-left:19%;
-    margin-right: 19%;
-
-   }
-   #game{
-    width: 60%;
-    margin-left:19%;
-    margin-right: 19%;
-
-   }
-   .page_title{
-    margin-top: 10%;
-    margin-left: 25%;
-    width: 90%;
-   }
-   #fullstack{
-    margin-top: 10%;
-    margin-left: 12%;
-  }
-  #developer{
-text-align: center;
-margin-left: 2%;
+#index{
+  width: 100%;
+  height: auto;
 }
-
+#last{
+ width: 100%;
+height:100%;
+padding-bottom:120%;
 }
-@media only screen
-
- and (max-width: 780px){
-.page_title{
-    margin-top: 10%;
-    margin-left: 10%;
-    width: 80%;
-   }
-   #developer{
-text-align: center;
-margin-left: 2%;
+#contac{
+ height: auto;
+ width: 100%;
+background-image: none;
 }
-}
-@media only screen
-
- and (max-width: 810px){
-.page_title{
-    margin-top: 10%;
-    margin-left: 10%;
-    width: 80%;
-   }
-   #fullstack{
-    margin-top: 10%;
-    margin-left: 12%;
-  }
-  #developer{
-text-align: center;
-margin-left: 2%;
-}
-}
-@media only screen
-
- and (max-width: 700px){
-
-   #travel{
-    width: 70%;
-    margin-left:14%;
-    margin-right: 14%;
-
-   }
-   #charity{
-    width: 70%;
-    margin-left:14%;
-    margin-right: 14%;
-   }
-   #finance{
-    width: 70%;
-    margin-left:14%;
-    margin-right: 14%;
-
-   }
-   #game{
-    width: 70%;
-    margin-left:14%;
-    margin-right: 14%;
-
-   }
-   .page_title{
-    margin-top: 10%;
-    margin-left: 2%;
-    width: 80%;
-   }
-   #fullstack:before{
-    width: 80%;
-    margin-left: 10%;
-   }
-   #fullstack{
-    margin-top: 10%;
-    text-align: center;
-    margin-left: 5%;
-    font-size: 70px;
-    width: 100%;
-
-  }
-  #developer{
-text-align: center;
-margin-left: 2%;
-}
-
-}
-
-@media only screen
-
- and (max-width: 600px){
-
-   #travel{
-    width: 80%;
-    margin-left:9%;
-    margin-right: 9%;
-
-   }
-   #charity{
-    width: 80%;
-    margin-left:9%;
-    margin-right: 9%;
-   }
-   #finance{
-    width: 80%;
-    margin-left:9%;
-    margin-right: 9%;
-
-   }
-   #game{
-    width: 80%;
-    margin-left:9%;
-    margin-right: 9%;
-
-   }
-   .page_title{
-    margin-top: 10%;
-    margin-left: 4%;
-    width: 80%;
-   }
-   #fullstack{
-    text-align: center;
-    margin-left: 5%;
-    font-size: 55px;
-    width: 100%;
-
-  }
-   #fullstack:before {
-width: 80%;
-}
-  #developer{
-text-align: center;
-margin-left: 2%;
+#contac:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(/images/motion.gif) no-repeat center center;
+  background-size: cover;
 }
 .sidenav{
   background-position: center;
 }
+.sidenav .closebtn {
+    position: absolute;
+    top: 6%;
+    right: 50px;
+    font-size: 44px;
+    margin-left: 50px;
+}
+
 #name{
-  margin-left: 5%;
+  height: 50%;
+  width: 80%;
+  margin-top: -30%;
+  margin-left: 4%;
 }
-.bold{
-  text-shadow: 1px 1px black;
+ .frame{
+  height: 240px;
+  width: 78%;
+  border:1px solid black;
+  border-radius: 5%;
+  background-position: top;
+  background-size: 120%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 5% 12% 5% 10%;
+  float: left;
+  font: 16px 'Noto Sans', sans-serif;
+box-shadow: 5px 5px 5px #000000;
 }
-#fstck{
- text-shadow: 1px 1px black;
+.grow{
+display: none;
 }
-#subm{
-  margin-top: 7%;
+.small_title{
+  display: block;
+  color:#008081;
+  font-weight: bolder;
+  margin-top: 10px;
+  text-decoration: underline;
 }
+.small_skills{
+  display:block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin: -17px 0 10px 0;
+  font-size: 16px;
 }
-@media only screen
- and (max-width: 480px){
-   #travel{
-    width: 100%;
-    margin-left:0;
-    margin-right: 0;
+.small_desc{
+display: block;
+background-color: rgba(0,0,0,0.8);
+margin-top: 70px;
+text-align: center;
+font-size: 12px;
+}
 
-   }
-   #charity{
-    width: 100%;
-    margin-left:0;
-    margin-right: 0;
-   }
-   #finance{
-    width: 100%;
-    margin-left:0;
-    margin-right: 0;
+.project{
+  opacity: 1;
+  margin-top: 20px;
+  font-size: 8px;
+  text-align: center;
+  text-decoration: underline;
+  color:#008081;
+}
 
-   }
-   #game{
-    width: 100%;
-    margin-left:0;
-    margin-right: 0;
-
-   }
-   .page_title{
+.page_title{
     margin-top: 15%;
     margin-left: 4%;
     width: 90%;
    }
-  .home{
-  margin-top: 40%;
-  margin-left: 8%;
-  height: 15%;
-  width:15%;
-   }
-   .work{
-margin-left: 8%;
-height: 15%;
-  width:15%;
-   }
-  .resume{
-margin-left: 8%;
-height: 15%;
-  width:15%;
-  }
-  .contact{
-margin-left: 8%;
-height: 15%;
-  width:15%;
-  }
-  .sidenav {
-    background-size: cover;
-  }
-  #fullstack{
-    margin-left: 2%;
-    font-size: 55px;
-    width: 100%;
-  }
-  #fullstack:before {
-width: 90%;
-}
-#index{
-  height: 100%;
-}
-#developer{
-text-align: center;
-}
-.sidenav{
-  background-position: center;
-}
-#name{
-  height: 50%;
-  width: 80%;
-  margin-top: -50%;
-  margin-left: 4%;
-}
 #social{
   width: 100%;
-  margin: 55% 0 0 0;
+  margin: 30% 0 0 0;
 }
-.my{
-  margin-left: 1%;
-  text-align: center;
-}
+
 .bold{
   text-shadow: 1px 1px black;
 }
 #fstck{
  text-shadow: 1px 1px black;
 }
+#cont{
+  width: 80%;
+  margin-left: 15%;
+}
+#contact_form{
+  width: 100%;
+  height: auto;
+}
+#tercero{
+  width: 75%;
+}
 #subm{
-  margin-top: 7%;
+   margin-bottom: 30%;
+  }
+#b{
+  margin-top: 140%;
 }
-#contact_sent{
-  height: 200px;
+.left{
+  margin-top: 120%;
 }
-#message_sent{
-  margin-top: 20%;
+.down{
+  height: 50%;
+  animation: sideUp 4s infinite;
+  animation-direction: alternate;
 }
+.up{
+  height: 50%;
+  animation: sideDown 4s infinite;
+  animation-direction: alternate;
+}
+@keyframes sideUp{
+0%{height:0%;}
+100%{height: 65%;}
+}
+@keyframes sideDown{
+100%{height:0%;}
+0%{height: 65%;}
+}
+
 }
 
 

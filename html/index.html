@@ -11,12 +11,22 @@
   <link rel="stylesheet" href="/stylesheets/media-queries.css"/>
 
 </head>
-<body id="index">
+<body>
 
-  <div id="mySidenav" class="sidenav">
+<div id="index">
+
+<div id="myBurguer" class="burguer">
+  <a href="javascript:void(0)" class="closeb" onclick="closeN()">&times;</a>
+   <a href="#index"><div class="inside_nav1" ></div></a>
+    <a href="#contac"><div class="inside_nav2" ></div></a>
+   <a href="#contact_form"><div class="inside_nav3" ></div></a>
+  <a href="files/resume.pdf"><div class="inside_nav4" ></div></a>
+</div>
+
+<div id="mySidenav" class="sidenav">
      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div id="name">
-    <h4 id="n">Danilo Marichal</h4>
+    <h4 id="n">Dan Marichal</h4>
     <p id="fstck">Full Stack Web Developer</p>
     <p id="mission">To put &nbsp;<span class="bold">passion</span>&nbsp; on every project and use my gifts of &nbsp;<span class="bold">intelligence</span>&nbsp; and &nbsp;<span class="bold">self-motivation</span>&nbsp; on every challenge, will build a solid path, will lead to the success, will &nbsp;<span class="bold">inspire</span>...</p>
     <p id="p">ABOUT ME</p>
@@ -29,22 +39,146 @@
 <a href="https://www.instagram.com/danmarichal/"><div class="soc_link" id="img3"></div></a>
 <!--<a class="soc_link" href="https://www.facebook.com/dany.marichal"><img id="imge5" class="shake-slow" src="/images/facebook.png"></a>-->
 </div>
-  </div>
-
+</div>
 <button type="About" id="about_me" onclick="openNav()">About me</button>
-<a href="/"><img class="home" src="/images/home.png"></a>
-<a href="/mywork"><img class="work" src="/images/work.png"></a>
-<a href="files/resume.pdf"><img class="resume" src="/images/cv.png"></a>
-<a href="/contact"><img class="contact" src="/images/mail.png"></a>
-
+<a href="#index"><img class="home" src="/images/home.png"></a>
+<a href="#contac"><img class="work" src="/images/work.png"></a>
+<a href="files/resume.pdf" ><img class="resume" src="/images/cv.png"></a>
+<a href="#contact_form"><img class="contact" src="/images/mail.png"></a>
+<div id="burga" onclick="openN()"></div>
 
    <!--<h1 id="a">A</h1>--><br>
-   <h1 id="fullstack">FULL STACK</h1><br>
-   <h1 id="developer">WEB DEVELOPER</h1>
+   <h1 id="fullstack">DAN MARICHAL</h1><br>
+   <h1 id="developer">FULL STACK WEB DEVELOPER</h1>
  <br>
-   <h2 class="my">DANILO MARICHAL PORTFOLIO-2017</h2>
+   <h2 class="my">PORTFOLIO-2017</h2>
+</div>
+
+<div id="contac">
+
+<div id="myBurguer" class="burguer">
+  <a href="javascript:void(0)" class="closeb" onclick="closeN()">&times;</a>
+   <a href="#index"><div class="inside_nav1" ></div></a>
+    <a href="#contac"><div class="inside_nav2" ></div></a>
+   <a href="#contact_form"><div class="inside_nav3" ></div></a>
+  <a href="files/resume.pdf"><div class="inside_nav4" ></div></a>
+</div>
+
+<div id="mySidenav" class="sidenav">
+     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div id="name">
+    <h4 id="n">Dan Marichal</h4>
+    <p id="fstck">Full Stack Web Developer</p>
+    <p id="mission">To put &nbsp;<span class="bold">passion</span>&nbsp; on every project and use my gifts of &nbsp;<span class="bold">intelligence</span>&nbsp; and &nbsp;<span class="bold">self-motivation</span>&nbsp; on every challenge, will build a solid path, will lead to the success, will &nbsp;<span class="bold">inspire</span>...</p>
+    <p id="p">ABOUT ME</p>
+    <p id="about">33-year-old  &nbsp;<span class="bold">NYC-NJ</span>&nbsp;  based <span class="bold">Full Stack Web Developer</span>. I build and <span class="bold">design</span> responsive <span class="bold">web applications</span>, enjoy creating smart user interface and <span class="bold">database</span>&nbsp; management.</p>
+</div>
+
+<div id="social">
+<a href="https://github.com/danilomarichal"><div class="soc_link" id="img1"></div></a>
+<a href="https://www.linkedin.com/in/danilo-marichal-36b714112/"><div class="soc_link" id="img2"></div></a>
+<a href="https://www.instagram.com/danmarichal/"><div class="soc_link" id="img3"></div></a>
+<!--<a class="soc_link" href="https://www.facebook.com/dany.marichal"><img id="imge5" class="shake-slow" src="/images/facebook.png"></a>-->
+</div>
+</div>
+<h1 class="page_title">PROJECTS</h1>
+
+<a href="https://far-fall-ville.herokuapp.com/index.html">
+  <div id="game" class="frame">
+    <div style="background-color: rgba(0,0,0,0.8);"><h2 class="small_title">Far-Fall Ville</h2><p class="small_skills">HTML &#x25CB; CSS &#x25CB; JavaScript &#x25CB; JQuery</p></div>
+    <p class="small_desc">Front end Hidden Elements Game.</p>
+  <div id="one" class="grow">
+    <h3 class="techies">HTML <br> CSS <br> JavaScript <br> JQuery</h3>
+   <h2 id="p1" class="project">Far-Fall Ville</h2>
+    <p id="d1" class="desc">Front end Hidden Elements Game.</p>
+   </div>
+  </div>
+</a>
+
+<a href="https://postrip.herokuapp.com/home">
+  <div id="travel" class="frame">
+    <div style="background-color: rgba(0,0,0,0.8);"><h2 class="small_title">Postrip</h2><p class="small_skills">Express.js &#x25CB; Node.js &#x25CB; PostgreSQL &#x25CB; Ajax &#x25CB;HTML &#x25CB; CSS &#x25CB; JavaScript &#x25CB; JQuery</p></div>
+    <p class="small_desc">Travel app. Users can post their pics and suggest travel destinations.</p>
+  <div id="two" class="grow">
+    <h3 class="techies">Express.js <br> Node.js <br> PostgreSQL <br> Ajax <br> HTML <br> CSS <br> JavaScript <br> JQuery</h3>
+   <h2 id="p2" class="project">Postrip</h2>
+    <p id="d2" class="desc">Travel app. Users can post their pics and suggest travel destinations.</p>
+   </div>
+  </div>
+</a>
+
+<a href="https://activisma.herokuapp.com/donate">
+  <div id="activism" class="frame">
+    <div style="background-color: rgba(0,0,0,0.8);"><h2 class="small_title">What's Going On</h2><p class="small_skills">Ruby on Rails &#x25CB; Bootstrap &#x25CB; JavaScript &#x25CB; PostgreSQL</p></div>
+    <p class="small_desc">Activism app. Users can contribute with charity organizations.</p>
+  <div id="three" class="grow">
+    <h3 class="techies">Ruby on Rails <br> Bootstrap <br> JavaScript <br> PostgreSQL</h3>
+    <h2 id="p3" class="project">What's Going On</h2>
+    <p id="d3" class="desc">Activism app. Users can contribute with charity organizations.<br></p>
+  </div>
+   </div>
+</a>
+
+<a href="https://finadvisor.herokuapp.com/home">
+  <div id="finance" class="frame">
+    <div style="background-color: rgba(0,0,0,0.8);"><h2 class="small_title">Finadvisor</h2><p class="small_skills">Express.js &#x25CB; Node.js &#x25CB; PostgreSQL &#x25CB; Ajax &#x25CB; HTML &#x25CB; CSS &#x25CB; JavaScript &#x25CB; JQuery</p></div>
+    <p class="small_desc">Finacial Advisor. Users can calculate their expenses/savings and find out what investment profile matches their needs.</p>
+  <div id="four" class="grow">
+    <h3 class="techies">Express.js <br> Node.js <br> PostgreSQL <br> Ajax <br> HTML <br> CSS <br> JavaScript <br> JQuery</h3>
+   <h2 id="p4" class="project">Finadvisor</h2>
+    <p id="d4" class="desc">Finacial Advisor. Users can calculate their expenses/savings and find out what investment profile matches their needs.</p>
+   </div>
+  </div>
+</a>
+
+</div>
+
+
+<div id="contact_form">
+
+<div id="myBurguer" class="burguer">
+  <a href="javascript:void(0)" class="closeb" onclick="closeN()">&times;</a>
+   <a href="#index"><div class="inside_nav1" ></div></a>
+    <a href="#contac"><div class="inside_nav2" ></div></a>
+   <a href="#contact_form"><div class="inside_nav3" ></div></a>
+  <a href="files/resume.pdf"><div class="inside_nav4" ></div></a>
+</div>
+
+  <div id="mySidenav" class="sidenav">
+     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div id="name">
+    <h4 id="n">Dan Marichal</h4>
+    <p id="fstck">Full Stack Web Developer</p>
+    <p id="mission">To put &nbsp;<span class="bold">passion</span>&nbsp; on every project and use my gifts of &nbsp;<span class="bold">intelligence</span>&nbsp; and &nbsp;<span class="bold">self-motivation</span>&nbsp; on every challenge, will build a solid path, will lead to the success, will &nbsp;<span class="bold">inspire</span>...</p>
+    <p id="p">ABOUT ME</p>
+    <p id="about">33-year-old  &nbsp;<span class="bold">NYC-NJ</span>&nbsp;  based <span class="bold">Full Stack Web Developer</span>. I build and <span class="bold">design</span> responsive <span class="bold">web applications</span>, enjoy creating smart user interface and <span class="bold">database</span>&nbsp; management.</p>
+</div>
+
+<div id="social">
+<a href="https://github.com/danilomarichal"><div class="soc_link" id="img1"></div></a>
+<a href="https://www.linkedin.com/in/danilo-marichal-36b714112/"><div class="soc_link" id="img2"></div></a>
+<a href="https://www.instagram.com/danmarichal/"><div class="soc_link" id="img3"></div></a>
+<!--<a class="soc_link" href="https://www.facebook.com/dany.marichal"><img id="imge5" class="shake-slow" src="/images/facebook.png"></a>-->
+</div>
+</div>
+  <h1 class="page_title">CONTACT</h1>
+<div id="loader"></div>
+<form id="cont" action='/contact' name="contactar" method="POST">
 <br>
 <br>
+<label>Full Name</label><br><input id="primero" type="text" placeholder="Full Name" name="name" required="Please fill out this field">
+<br>
+<br>
+<label>Email</label><br><input id="segundo" type="text" placeholder="Email address" name="email" required="Please fill out this field">
+<br>
+<p id="result"></p>
+<br>
+<br>
+<label>Message</label><br><textarea id="tercero" row="8" cols="50" name="message" placeholder="Message" required="Please fill out this field"></textarea>
+<br>
+<button id="subm">SEND</button>
+</form>
+</div>
 </body>
 
 <script src="/scripts/script.js"></script>
